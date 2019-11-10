@@ -1,3 +1,4 @@
+import urllib
 def decode_chunked(content):
     content = content.lstrip('\r')
     content = content.lstrip('\n')
